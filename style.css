@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav{
+    padding: 30px;
+    height: 13px;
+   
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo{
+    margin-left: 20px;
+
+}
+.logo img{
+    height: 30px;
+}
+.buttons ul{
+    display: flex;
+    margin-left: 80px;
+
+
+}
+.buttons ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.buttons ul li:hover{
+    color: #DA291C; 
+}
+.login{
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+}
+.con{
+    height: 80vh;
+}
+video{
+    width: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-img{
+      height: 250px;
+      width: 100%;
+      
+      display: flex;
+  }
+  .img1{
+
+      height: 100%;
+      width: 25%;
+     background-color: #212121;
+      background-image: url(./img/car-bike-2022-classic-350.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+  .img1:nth-child(2){
+    background-image: url(./img/auto-car-2022-classic-350.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .img1:nth-child(3){
+    background-image: url(./img/bike-india-classic-350.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .img1:nth-child(4){
+    background-image: url(./img/top-gear-2022-classic-350.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .img1 h4{
+      color: #fff;
+      margin-top: 160px;
+      margin-left: 10px;
+
+  }
+ .moto-nav{
+     height: 30px;
+     background-color: #212121;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     padding: 10px;
+ }
+ .moto-nav h3{
+     margin-left: 20px;
+     font-size: 23px;
+ }
+ .moto-nav ul{
+     display: flex;
+     margin-left: 50px;
+ }
+ .moto-nav ul li{
+     margin-left: 20px;
+     list-style: none;
+ }
+ .moto-nav ul li span{
+    margin-left: 10px;
+   
+}
+.moto-nav ul li:hover{
+    color: #DA291C;
+}
+.moto-nav ul li span:hover{
+    color: #fff;
+}
+.moto-img{
+    height: 90vh;
+    
+}
+.moto-img img{
+    height: 100%;
+    width: 100%;
+}
+.rides-img{
+    height: 80vh;
+}
+.rides-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
